@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\nedim\AppData\Local\Temp\testng-eclipse-33213628\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="AShouldBeAbleToCreateNewObject">AShouldBeAbleToCreateNewObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="BShouldBeAbleToWriteNameOfNewObject">BShouldBeAbleToWriteNameOfNewObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="CShouldBeAbleToWriteCityName">CShouldBeAbleToWriteCityName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="DShouldBeAbleToWriteZipCode">DShouldBeAbleToWriteZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="EShouldBeAbleToWriteAdress">EShouldBeAbleToWriteAdress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="FShouldBeAbleToWriteHouseNumber">FShouldBeAbleToWriteHouseNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="GShouldBeAbleToWriteDescription">GShouldBeAbleToWriteDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="HShouldBeAbleToAddCategory">HShouldBeAbleToAddCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="ItestObjectConfirm">ItestObjectConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="JIsAbleToSearch">JIsAbleToSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="KSearchResultsShouldAppear">KSearchResultsShouldAppear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="LZoomShouldBeAvailable">LZoomShouldBeAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="MSateliteViewIsAvailable">MSateliteViewIsAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="NItShouldBeAvailableOnEN">NItShouldBeAvailableOnEN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="OIsAbleToSearchObject">OIsAbleToSearchObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.navigator.tests.CreatePlace" hash-for-method="PSearchResultsShouldAppear">PSearchResultsShouldAppear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.navigator.tests.CreatePlace</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AShouldBeAbleToCreateNewObject">
+                  </a> <!-- AShouldBeAbleToCreateNewObject -->
+                  <span class="method-name">AShouldBeAbleToCreateNewObject</span>
+                  <em>
+(Mora postojati naslov stranice)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BShouldBeAbleToWriteNameOfNewObject">
+                  </a> <!-- BShouldBeAbleToWriteNameOfNewObject -->
+                  <span class="method-name">BShouldBeAbleToWriteNameOfNewObject</span>
+                  <em>
+(Mora biti u mogucnosti da upise ime novog objekta)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CShouldBeAbleToWriteCityName">
+                  </a> <!-- CShouldBeAbleToWriteCityName -->
+                  <span class="method-name">CShouldBeAbleToWriteCityName</span>
+                  <em>
+(Mora biti u mogucnosti da upise ime grada)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DShouldBeAbleToWriteZipCode">
+                  </a> <!-- DShouldBeAbleToWriteZipCode -->
+                  <span class="method-name">DShouldBeAbleToWriteZipCode</span>
+                  <em>
+(Mora biti u mogucnosti da upise postanski broj)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EShouldBeAbleToWriteAdress">
+                  </a> <!-- EShouldBeAbleToWriteAdress -->
+                  <span class="method-name">EShouldBeAbleToWriteAdress</span>
+                  <em>
+(Mora biti u mogucnosti da upise adresu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FShouldBeAbleToWriteHouseNumber">
+                  </a> <!-- FShouldBeAbleToWriteHouseNumber -->
+                  <span class="method-name">FShouldBeAbleToWriteHouseNumber</span>
+                  <em>
+(Mora biti u mogucnosti da upise kucni broj)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GShouldBeAbleToWriteDescription">
+                  </a> <!-- GShouldBeAbleToWriteDescription -->
+                  <span class="method-name">GShouldBeAbleToWriteDescription</span>
+                  <em>
+(Mora biti u mogucnosti da upise opis objekta)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HShouldBeAbleToAddCategory">
+                  </a> <!-- HShouldBeAbleToAddCategory -->
+                  <span class="method-name">HShouldBeAbleToAddCategory</span>
+                  <em>
+(Mora biti u mogucnosti da izabere tip objekta)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ItestObjectConfirm">
+                  </a> <!-- ItestObjectConfirm -->
+                  <span class="method-name">ItestObjectConfirm</span>
+                  <em>
+(Mora biti u mogucnosti da klikne na kreiranje objekta)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JIsAbleToSearch">
+                  </a> <!-- JIsAbleToSearch -->
+                  <span class="method-name">JIsAbleToSearch</span>
+                  <em>
+(Mora biti u mogucnosti da pretrazuje ulicu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KSearchResultsShouldAppear">
+                  </a> <!-- KSearchResultsShouldAppear -->
+                  <span class="method-name">KSearchResultsShouldAppear</span>
+                  <em>
+(Mora biti u mogucnosti da klikne na trazeni rezultat pretrage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LZoomShouldBeAvailable">
+                  </a> <!-- LZoomShouldBeAvailable -->
+                  <span class="method-name">LZoomShouldBeAvailable</span>
+                  <em>
+(Mora biti u mogucnosti da koristi zoom)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MSateliteViewIsAvailable">
+                  </a> <!-- MSateliteViewIsAvailable -->
+                  <span class="method-name">MSateliteViewIsAvailable</span>
+                  <em>
+(Mora biti u mogucnosti da se prebaci u satelite view)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NItShouldBeAvailableOnEN">
+                  </a> <!-- NItShouldBeAvailableOnEN -->
+                  <span class="method-name">NItShouldBeAvailableOnEN</span>
+                  <em>
+(Mora biti u mogucnosti da prebaci jezik na engleski)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OIsAbleToSearchObject">
+                  </a> <!-- OIsAbleToSearchObject -->
+                  <span class="method-name">OIsAbleToSearchObject</span>
+                  <em>
+(Mora biti u mogucnosti da pretrazuje objekat)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PSearchResultsShouldAppear">
+                  </a> <!-- PSearchResultsShouldAppear -->
+                  <span class="method-name">PSearchResultsShouldAppear</span>
+                  <em>
+(Mora biti u mogucnosti da klikne na trazeni rezultat pretrage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nedim\AppData\Local\Temp\testng-eclipse-33213628\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.navigator.tests.CreatePlace&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LZoomShouldBeAvailable')
+data.setCell(0, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(0, 3, 34439);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'NItShouldBeAvailableOnEN')
+data.setCell(1, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(1, 3, 16710);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'KSearchResultsShouldAppear')
+data.setCell(2, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(2, 3, 6166);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ItestObjectConfirm')
+data.setCell(3, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(3, 3, 5366);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PSearchResultsShouldAppear')
+data.setCell(4, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(4, 3, 5183);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'BShouldBeAbleToWriteNameOfNewObject')
+data.setCell(5, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(5, 3, 3869);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HShouldBeAbleToAddCategory')
+data.setCell(6, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(6, 3, 2637);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'MSateliteViewIsAvailable')
+data.setCell(7, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(7, 3, 2138);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AShouldBeAbleToCreateNewObject')
+data.setCell(8, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(8, 3, 1011);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'OIsAbleToSearchObject')
+data.setCell(9, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(9, 3, 867);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'JIsAbleToSearch')
+data.setCell(10, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(10, 3, 813);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'EShouldBeAbleToWriteAdress')
+data.setCell(11, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(11, 3, 772);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'GShouldBeAbleToWriteDescription')
+data.setCell(12, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(12, 3, 296);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CShouldBeAbleToWriteCityName')
+data.setCell(13, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(13, 3, 242);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'DShouldBeAbleToWriteZipCode')
+data.setCell(14, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(14, 3, 176);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'FShouldBeAbleToWriteHouseNumber')
+data.setCell(15, 2, 'com.navigator.tests.CreatePlace')
+data.setCell(15, 3, 158);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.navigator.tests.CreatePlace</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AShouldBeAbleToCreateNewObject</span>
+                <span class="method-start">21471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BShouldBeAbleToWriteNameOfNewObject</span>
+                <span class="method-start">22484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CShouldBeAbleToWriteCityName</span>
+                <span class="method-start">26356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DShouldBeAbleToWriteZipCode</span>
+                <span class="method-start">26599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EShouldBeAbleToWriteAdress</span>
+                <span class="method-start">26776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FShouldBeAbleToWriteHouseNumber</span>
+                <span class="method-start">27550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GShouldBeAbleToWriteDescription</span>
+                <span class="method-start">27709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HShouldBeAbleToAddCategory</span>
+                <span class="method-start">28006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ItestObjectConfirm</span>
+                <span class="method-start">30644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">JIsAbleToSearch</span>
+                <span class="method-start">36011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">KSearchResultsShouldAppear</span>
+                <span class="method-start">36825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LZoomShouldBeAvailable</span>
+                <span class="method-start">42992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MSateliteViewIsAvailable</span>
+                <span class="method-start">77431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NItShouldBeAvailableOnEN</span>
+                <span class="method-start">79570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OIsAbleToSearchObject</span>
+                <span class="method-start">96282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PSearchResultsShouldAppear</span>
+                <span class="method-start">97149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102332 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
